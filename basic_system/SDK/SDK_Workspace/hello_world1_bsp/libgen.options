@@ -1,0 +1,3 @@
+PROCESSOR=microblaze_0
+REPOSITORIES=
+HWSPEC=C:/Users/student/Documents/Sw8-2013/dma_axi_stream/dma_axi_stream_xps_prj/SDK/SDK_Workspace/dma_axi_stream_hw_platform/system.xml

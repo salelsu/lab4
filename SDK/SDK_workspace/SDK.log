@@ -1,0 +1,73 @@
+18:00:13.882 INFO  - Processing command line option -hwspec C:\materija\ra139-2011\lprs2\lab3\SDK\SDK_Export\hw\system.xml. 
+18:18:37.928 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:25:03.754 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:27:11.538 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:28:29.355 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:29:27.350 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:30:37.780 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:42:55.483 INFO  - Processing command line option -hwspec C:\materija\ra139-2011\lprs2\lab3\SDK\SDK_Export\hw\system.xml. 
+12:46:05.639 INFO  - FPGA configured successfully with bitstream "C:/materija/ra139-2011/lprs2/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+12:46:44.755 INFO  - FPGA configured successfully with bitstream "C:/materija/ra139-2011/lprs2/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+12:51:56.326 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:55:25.177 INFO  - Processing command line option -hwspec C:\materija\ra248-2013\lab3\SDK\SDK_Export\hw\system.xml. 
+12:56:44.805 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+12:57:00.171 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+12:57:54.756 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+12:58:28.520 INFO  - FPGA configured successfully with bitstream "C:/materija/ra248-2013/lab3/SDK/SDK_workspace/lab3_hw_platform/download.bit" 
+13:00:59.867 ERROR - Port COM1 is already in use. 
+13:21:25.413 INFO  - Project lab3_hw_platform's source hardware specification located at C:\materija\ra248-2013\lab3\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+13:30:17.752 INFO  - Copied contents of C:\materija\ra248-2013\lab3\SDK\SDK_Export\hw\system.xml into \lab3_hw_platform\system.xml. 
+13:30:17.760 INFO  - Copied contents of C:\materija\ra248-2013\lab3\SDK\SDK_Export\hw\system.bit into \lab3_hw_platform\system.bit. 
+13:30:17.762 INFO  - Copied contents of C:\materija\ra248-2013\lab3\SDK\SDK_Export\hw\system_bd.bmm into \lab3_hw_platform\system_bd.bmm. 
+13:30:18.157 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:30:19.220 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: dip_switches, driver: gpio_v3_01_a.
+			Peripheral Instance: leds, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: my_peripheral_0, driver: generic_v1_00_a.
+ 
+13:30:20.088 INFO  - Updating hardware inferred compiler options for hello_world. 
+13:30:20.113 INFO  - Clearing existing target manager status. 
+13:43:36.568 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

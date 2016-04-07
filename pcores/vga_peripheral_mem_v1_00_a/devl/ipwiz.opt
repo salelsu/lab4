@@ -1,0 +1,10 @@
+-batch 
+-create vga_peripheral_mem 
+-ver 1.00.a 
+-dir "C:\materija\ra248-2013\lab3" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 32 
+-xps 
+-ise 
+-driver 

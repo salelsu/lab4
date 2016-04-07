@@ -1,0 +1,48 @@
+18:04:43 **** Build of project hello_world_bsp ****
+make -k all 
+libgen -hw ../basic_system_hw_platform/system.xml\
+	       \
+	       -pe microblaze_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../basic_system_hw_platform/system.xml -pe microblaze_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift
+-mxl-pattern-compare -mcpu=v8.50.b  -O2 -c" "EXTRA_COMPILER_FLAGS=-g
+-ffunction-sections -fdata-sections"'.
+AllocationBase 0x0, BaseAddress 0x715B0000, RegionSize 0x460000, State 0x10000
+C:\msys\1.0\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make[1]: *** [standalone_includes] Greška 1
+AllocationBase 0x0, BaseAddress 0x715B0000, RegionSize 0x460000, State 0x10000
+C:\msys\1.0\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make[1]: *** [profile_includes] Greška 1
+make[1]: Meta `include' nije ponovo izraðen zbog grešaka.
+AllocationBase 0x0, BaseAddress 0x715B0000, RegionSize 0x460000, State 0x10000
+C:\msys\1.0\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make[1]: *** [include] Greška 1
+AllocationBase 0x0, BaseAddress 0x715B0000, RegionSize 0x460000, State 0x10000
+C:\msys\1.0\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make[1]: *** [include] Greška 1
+ERROR:EDK:368 -  make failed for target "include" 
+ERROR:EDK:3418 - Error(s) while running make.
+make: *** [microblaze_0/lib/libxil.a] Greška 2
+make: Meta `all' nije ponovo izraðen zbog grešaka.
+18:04:46 **** Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+AllocationBase 0x0, BaseAddress 0x715B0000, RegionSize 0x460000, State 0x10000
+C:\msys\1.0\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [src/helloworld.o] Greška 1
